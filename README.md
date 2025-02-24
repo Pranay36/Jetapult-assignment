@@ -1,3 +1,4 @@
+
 # Jelapult Keep 
 
 A **Google Keep-inspired** note-taking application built with **React, Context API, and Google Gemini AI** for summarization. This project implements **CRUD operations**, **local storage persistence**, and **AI-powered note summarization**.
@@ -34,3 +35,4 @@ npm start
 ```
 Open http://localhost:3000 in your browser.
 
+## DEMO - https://jetapult-assignment-jet.vercel.app/
