@@ -9,7 +9,7 @@ const Footer = () => {
       </p>
       <p>
         <a
-          href="https://github.com/your-repo-link"
+          href="https://github.com/Pranay36/Jetapult-assignment"
           target="_blank"
           rel="noopener noreferrer"
         >
