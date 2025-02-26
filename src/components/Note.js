@@ -13,10 +13,7 @@ const Note = ({ note }) => {
 
     try {
       const genAI = new GoogleGenerativeAI(apiKey);
-      // const models = await genAI.listModels();
-      // console.log(models)
       const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
-      // console.log(model)
       const prompt = `Summarize this note:\n\n"${note.content}"\n\nSummary:`;
       const result = await model.generateContent(prompt);
       const response = await result.response;
